@@ -1,0 +1,25 @@
+.button {
+  position: absolute;
+  bottom: 10px;
+
+  display: block;
+
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  cursor: pointer;
+  font-weight: 600;
+  left: 50%;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: background-color 500ms ease, color 500ms ease-in-out;
+  transform: translateX(-50%);
+  opacity: 100% !important;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #f39c12;
+  color: #fff;
+}

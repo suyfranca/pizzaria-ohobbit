@@ -1,0 +1,14 @@
+.pizza {
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  opacity: 90%;
+}
+
+.pizza p,
+h1 {
+  padding: 10px;
+}

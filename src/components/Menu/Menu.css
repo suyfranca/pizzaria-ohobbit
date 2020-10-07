@@ -1,0 +1,30 @@
+.nav-menu {
+  background-color: transparent;
+  height: 70px;
+  right: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu li {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 12px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+}
